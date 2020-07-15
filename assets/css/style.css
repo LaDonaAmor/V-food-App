@@ -2,11 +2,15 @@ body,html {
 margin: 0;
 background-color:#E5E5E5;
 padding: 0;
+font-family: Poppins;
+font-style: normal;
+color: #313131;
 }
 /**Hero-Image**/
 .hero-image {
 background-image:  url("../img/brooke-lark-08bOYnH_r_E-unsplash 1.png");
 background-repeat: no-repeat;
+background-size: cover;
 position: absolute;
 width: 100%;
 height: 900px;
@@ -37,7 +41,6 @@ font-weight: 600;
 font-size: 36px;
 line-height: 54px;
 text-transform: capitalize;
-color: #313131;
 }
 .p-text{
 position: absolute;
@@ -48,7 +51,6 @@ top: 300px;
 font-weight: normal;
 font-size: 18px;
 line-height: 27px;
-text-transform: capitalize;
 color: #000000;
 }
 .hero-text button {
@@ -57,24 +59,16 @@ display: inline-block;
 padding: 10px 25px;
 background: #8F0A42;
 border-radius: 8px;
-font-family: Poppins;
-font-style: normal;
 font-weight: 600;
 font-size: 32px;
 line-height: 48px;
 text-align: center;
-text-transform: capitalize;
 color: #FFFFFF;
-cursor: pointer;
 position: absolute;
 width: 334px;
 height: 92px;
 left: -2px;
 top: 400px;
-}
-.hero-text button:hover {
-background-color: #FFFFFF;
-color: #8F0A42;
 }
 .logo2{
 position: absolute;
@@ -89,8 +83,194 @@ position: absolute;
 width: 64px;
 height: 36px;
 left: 680px;
-top: 1000px;
+top: 975px;
 }
-.form{
+.how{
+position: absolute;
+width: 229px;
+height: 54px;
+left: 623px;
+top: 1015px;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;    
+color: #313131;
+}
+.how2{
+position: absolute;
+width: 574px;
+height: 42px;
+left: 477px;
+top: 1075px;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+color: #7B7B7B;
+}
+.container{
+position: absolute;
+width: 1196px;
+height: 518px;
+left: 122px;
+top: 1246px;
+}
+.card{
+width: 22.81rem;
+height: 32.38rem;
+background: #FFFFFF;
+border-radius: 0px 50px;
+}
+.card-img-top{
+position: absolute;
+width: 100px;
+height: 100px;
+left: 31px;
+top: 44px;
+}
+.card-body{
+position: absolute;
+width: 321px;
+height: 244px;
+left: 25px;
+top: 170px;
+}
+.card-title{
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #313131;
+}
+.card-text{
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #7B7B7B;
+}
+/**Stay In Touch**/
+.stay1{
+position: absolute;
+width: 799px;
+height: 48px;
+left: 321px;
+top: 1800px;
+font-weight: 500;
+font-size: 30px;
+line-height: 48px;
+}
+.stay2{
+position: absolute;
+width: 569px;
+height: 27px;
+left: 436px;
+top: 1850px;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+}
+.email{
+position: absolute;
+width: 820px;
+height: 78px;
+left: 308px;
+top: 1925px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
 text-align: center;
 }
+.Subscribe button {
+display: inline-block;
+background: #8F0A42;
+border: 3px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 15px;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+text-align: center;
+color: #FFFFFF;
+position: absolute;
+width: 333px;
+height: 72px;
+left: 552px;
+top: 2045px;
+}
+.Subscribe button:hover {
+background-color: #FFFFFF;
+color: #8F0A42;
+}
+/**About The App**/
+.about{
+position: absolute;
+width: 1150.15px;
+height: 657.01px;
+left: 70px;
+top: 2323.41px;
+}
+.image{
+width: 629.59px;
+height: 657.01px;
+}
+.about-title{
+position: absolute;
+width: 270px;
+height: 54px;
+left: 121px;
+top: 100px;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+color: #313131;
+}
+.about-text{
+position: absolute;
+width: 373px;
+height: 108px;
+left: 121px;
+top: 200px;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #7B7B7B;
+}
+/**Delivery**/
+.deliver{
+position: absolute;
+width: 100%;
+height: 100%;
+left: -3px;
+top: 3103px;
+background: #F1F1F1;
+}
+.deliver-title{
+position: absolute;
+width: 407px;
+height: 114px;
+left: 122px;
+top: 55px;
+font-weight: 600;
+font-size: 38px;
+line-height: 57px;
+text-transform: capitalize;
+color: #313131;
+}
+.deliver-text{
+position: absolute;
+width: 457px;
+height: 54px;
+left: 122px;
+top: 250px;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+text-transform: capitalize;
+color: #7B7B7B;
+}
+.app{
+position: absolute;
+width: 1000px;
+height: 68px;
+left: 119px;
+top: 337px;
+}
+/**Footerish**/
