@@ -30,7 +30,7 @@ body,html {
   .h-text{
   position: absolute;
   top: 6.25rem;
-  font-weight: 600;
+  font-weight: 37.5rem;
   font-size: 1.65rem;
   line-height: 2rem;
   text-transform: capitalize;
@@ -46,14 +46,14 @@ body,html {
   display: inline-block;
   background: #8F0A42;
   border-radius: 0.5rem;
-  font-weight: 37.5rem;
-  font-size: 1.6rem;
-  line-height: 3rem;
+  font-weight: 31.25rem;
+  font-size: 1.4rem;
+  line-height: 1.5rem;
   text-align: center;
   color: #FFFFFF;
   position: absolute;
-  width: 11rem;
-  height: 4rem;
+  width: 30rem;
+  height: 6rem;
   top: 17rem;
   }
   .logo2{
@@ -67,24 +67,24 @@ body,html {
   /**Application Screen**/
 .app-text{
     position: absolute;
-width: 320px;
-height: 48px;
-left: 540px;
+width: 20rem;
+height: 3rem;
+left: 33.75rem;
 top: 43rem;
-font-weight: 500;
-font-size: 32px;
-line-height: 48px;
+font-weight: 31.25rem;
+font-size: 2rem;
+line-height: 3rem;
 color: #313131;
 }
 .col-md-3{
   position: absolute;
-width: 201px;
-height: 27px;
-left: 130px;
+width: 12.5625rem;
+height: 1.6875rem;
+left: 20rem;
 top: 52.5rem;
-font-weight: 500;
-font-size: 18px;
-line-height: 27px;
+font-weight:31.25rem;
+font-size: 1.125rem;
+line-height: 1.6875rem;
 color: #7B7B7B;
 }
 .features{
@@ -93,7 +93,7 @@ width: 13.3rem;
 height: 6.8rem;
 left: 1rem;
 top: 2rem;
-font-weight: 500;
+font-weight: 31.25rem;
 font-size: 2.25rem;
 line-height: 2.5rem;
 color: #313131;
@@ -104,17 +104,21 @@ width: 12.5rem;
 height: 2.25rem;
 left: 1rem;
 top: 7rem;
-font-weight: 500;
+font-weight: 31.25rem;
 font-size: 1.5rem;
 line-height: 2.25rem;
 color: #313131;
 }
 .col-md-8{
   position: absolute;
-width: 53rem;
+width: 10rem;
 height: 466.41px;
-left: 30rem;
+left: 45rem;
 top: 52.5rem;
+}
+.uk-slideshow 
+[class*=uk-position-bottom] {
+  position: relative!important;
 }
 
 /**Work**/
@@ -175,7 +179,7 @@ left: 0rem;
 top: 6rem;
 }
 .card-title{
-  font-weight: 600;
+  font-weight: 37.5rem;
 font-size: 1.3rem;
 line-height: 2.3rem;
 color: #313131;
@@ -290,7 +294,7 @@ width: 25rem;
 height: 7rem;
 left: 5.5rem;
 top: 3rem;
-font-weight: 600;
+font-weight: 37.5rem;
 font-size: 2rem;
 line-height: 2.7rem;
 text-transform: capitalize;
@@ -316,22 +320,22 @@ top: 21.0625rem;
 }
 .mockup8{
   position: absolute;
-width: 820px;
-height: 637.42px;
-left: 495px;
-top: -55px;
+width: 51.25rem;
+height: 39.83875rem;
+left: 30.9375rem;
+top: -3.4375rem;
 }
 .bgimg{
   position: absolute;
-left: 857px;
-top: 0px;
+left: 53.6rem;
+top: 0rem;
 }
 .logo3{
   position: absolute;
-width: 172px;
+width: 10.75rem;
 height: 50px;
 left: 35rem;
-top: 220rem;
+top: 222.5rem;
 }
 .btn{
 border: 0.02rem solid #000000;
