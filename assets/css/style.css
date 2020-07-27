@@ -148,11 +148,11 @@ body,html {
   }
   /**About The App**/
   .about-wrapper{
-  padding-top: 4rem;
+  padding-top: 5rem;
   padding-left: 1rem;
+  padding-bottom: 5rem;
   }
   .feature-box{
-  padding-top: 5rem;
   font-size: 1.3rem;
   }
   .feature-box h3{
