@@ -67,7 +67,7 @@ body,html {
   color: #313131;
   }
   .uk-grid {
-  padding-left: 5rem;
+  
   }
   .uk-slideshow 
   [class*=uk-position-bottom] {
@@ -90,7 +90,7 @@ body,html {
   padding-top: 2rem;
   }
   .card{
-  width: 75%;
+  width: 100%;
   background: #FFFFFF;
   padding: 1rem;
   border-radius: 0rem 3.1rem;
@@ -169,7 +169,7 @@ body,html {
   }
   /**Delivery**/
   .deliver{
-  height: 100vh;
+  height: 100%;
   background: #F1F1F1;
   }
   .deliver-title{
@@ -194,3 +194,36 @@ body,html {
   margin-top: -1rem;
   }
   
+  /*============================
+          RESPONSIVENESS
+  ============================*/
+@media (max-width: 1024px) {
+  div.card {
+    margin-left: 0;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  div.card {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;  
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  div.card {
+    margin-left: 0;
+    margin-bottom: 1em;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .card-text {
+    font-size: 16px;
+  }
+}
