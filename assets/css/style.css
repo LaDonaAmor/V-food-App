@@ -9,11 +9,10 @@ body,html {
   }
   /**Hero-Image**/
   .hero-container {
-  background-image:  url("../img/background.png");
+  background-image: url("../img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  overflow-y: hidden;
   height: 100vh;
   display: flex;
   align-items: center;
