@@ -79,9 +79,10 @@ padding-top: 4rem;
 }
 .works-text{
 text-align: center;
-margin: 2rem 3rem;
+margin: 0.5rem 1rem;
 color: #7B7B7B;
 font-weight: bold;
+font-size: 1.5rem;
 }
 .cards{
 padding-top: 2rem;
@@ -222,12 +223,36 @@ font-size: 14px;
 .card-text {
 font-size: 12px;
 }
+.Subscribe-container h4{
+font-weight: bold;
+font-size: 1.75rem;
+}
+.works-text{
+margin: 0.5rem 1rem;
+font-size: 1.5rem;
+}
+.ml9{
+font-size: 1.5rem;
+font-weight: bold;
+}
 }
 @media (max-width: 768px) {
 div.card {
 width: 100%;
 margin-left: 0;
 margin-bottom: 0;  
+}
+.Subscribe-container h4{
+font-weight: bold;
+font-size: 1.75rem;
+}
+.works-text{
+margin: 0.5rem 1rem;
+font-size: 1.5rem;
+}
+.ml9{
+font-size: 1.5rem;
+font-weight: bold;
 }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -240,5 +265,17 @@ font-size: 16px;
 }
 .card-text {
 font-size: 16px;
+}
+.Subscribe-container h4{
+font-weight: bold;
+font-size: 1.75rem;
+}
+.works-text{
+margin: 0.5rem 1rem;
+font-size: 1.5rem;
+}
+.ml9{
+font-size: 1.5rem;
+font-weight: bold;
 }
 }
