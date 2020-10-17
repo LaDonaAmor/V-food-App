@@ -64,7 +64,7 @@ font-size: 1rem;
 text-align: center;
 font-weight: bold;
 padding-top: 4rem;
-font-size: 2.3rem;
+font-size: 2rem;
 line-height: 3rem;
 color: #313131;
 }
@@ -76,7 +76,7 @@ position: relative!important;
 .works{
 text-align: center;
 color: #8F0A42;
-font-size: 2.3rem;
+font-size: 2rem;
 font-weight: bold;
 padding-top: 4rem;
 }
@@ -85,7 +85,7 @@ text-align: center;
 margin: 0.5rem 1rem;
 color: #7B7B7B;
 font-weight: bold;
-font-size: 1.3rem;
+font-size: 1.1rem;
 }
 .cards{
 padding-top: 2rem;
@@ -169,12 +169,12 @@ padding-bottom: 5rem;
 .feature-box h3{
 margin-bottom: 1rem;
 font-weight: bold;
-font-size: 2.3rem;
+font-size: 2rem;
 }
 .feature-box p{
 color: #7B7B7B;
 font-weight: bold;
-font-size: 1.3rem;
+font-size: 1.1rem;
 }
 .feature-image{
 width: 75%;
