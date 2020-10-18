@@ -158,18 +158,18 @@ padding-left: 1rem;
 padding-bottom: 5rem;
 }
 .feature-box h3{
-margin-bottom: 1rem;
+margin-top: 2rem;
 font-weight: bold;
 font-size: 2rem;
 }
 .feature-box p{
 color: #7B7B7B;
 font-weight: bold;
-font-size: 1.1rem;
+font-size: 1.15rem;
 }
 .feature-image{
 width: 75%;
-padding: 25px;
+padding: 40px;
 }
 /**Delivery**/
 .deliver{
@@ -237,10 +237,14 @@ font-size: 1.65rem;
 .works-text{
 margin: 0.5rem 1rem;
 font-size: 1.4rem;
+font-weight: lighter;
 }
 .ml9{
 font-size: 1.5rem;
 font-weight: bold;
+}
+.feature-box p{
+font-weight: lighter;
 }
 }
 @media (max-width: 768px) {
@@ -264,10 +268,14 @@ font-size: 1.65rem;
 .works-text{
 margin: 0.5rem 1rem;
 font-size: 1.4rem;
+font-weight: lighter;
 }
 .ml9{
 font-size: 1.5rem;
 font-weight: bold;
+}
+.feature-box p{
+font-weight: lighter;
 }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -296,9 +304,13 @@ font-size: 1.65rem;
 .works-text{
 margin: 0.5rem 1rem;
 font-size: 1.4rem;
+font-weight: lighter;
 }
 .ml9{
 font-size: 1.5rem;
 font-weight: bold;
+}
+.feature-box p{
+font-weight: lighter;
 }
 }
