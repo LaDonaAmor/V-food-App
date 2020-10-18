@@ -1,316 +1,317 @@
 body,html {
-margin: 0;
-background-color:#E5E5E5;
-padding: 0;
-font-family: 'Lora', serif;
-color: #313131;
-overflow-x: hidden;
-}
-/**Hero-Image**/
-.hero-container {
-background-image: url("../img/background.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-display: flex;
-align-items: center;
-justify-content: left;
-padding-top: 5rem;
-}
-.hero-content h1{
-font-size: 2rem;
-}
-.hero-content{
-margin-left: 2rem;
-}
-.hero-content h2{
-font-weight: bold;
-}
-.hero-content h2 span{
-font-weight: normal;
-font-size: 0.8rem;
-}
-#clockdiv{
-font-family: sans-serif;
-color: #fff;
-display: inline-block;
-font-weight: 100;
-text-align: center;
-font-size: 1.9rem;
-margin-left: 1rem;
-}
-#clockdiv > h2{
-font-weight: bold;
-}
-#clockdiv > div{
-padding: 0.1rem;
-border-radius: 0.2rem;
-background: #8F0A42;
-display: inline-block;
-}
-#clockdiv div > span{
-padding: 0.17rem;
-border-radius: 0.2rem;
-background: #A10043;
-display: inline-block;
-}
-.smalltext{
-padding-top: 0.2rem;
-font-size: 1rem;
-}
-/**Application Screen**/
-.app-text{
-text-align: center;
-font-weight: bold;
-padding-top: 4rem;
-font-size: 2rem;
-line-height: 3rem;
-color: #313131;
-}
-.uk-slideshow 
-[class*=uk-position-bottom] {
-position: relative!important;
-}
-/**Work**/
-.works{
-text-align: center;
-color: #8F0A42;
-font-size: 2rem;
-font-weight: bold;
-padding-top: 4rem;
-}
-.works-text{
-text-align: center;
-margin: 0.5rem 1rem;
-color: #7B7B7B;
-font-weight: bold;
-font-size: 1.1rem;
-}
-.cards{
-padding-top: 2rem;
-}
-.card{
-width: 100%;
-background: #FFFFFF;
-padding: 1rem;
-border-radius: 0rem 3.1rem;
-margin-bottom: 1rem;
-margin-right: 1rem;
-text-align: center;
-}
-.card-img-top{
-text-align: center;
-width: 4rem;
-height: 3rem;
-}
-.card-title{
-font-weight: bold;
-font-size: 1.1rem;
-color: #313131;
-}
-.card-text{
-line-height: 1.6rem;
-color: #7B7B7B;
-font-weight: bold;
-}
-/**Stay In Touch**/
-.Subscribe-container{
-text-align: center;
-margin-top: 80px;
-}
-.Subscribe-container h4{
-font-weight: bold;
-font-size: 2.3rem;
-}
-.Subscribe-container p{
-color: #7B7B7B;
-font-weight: bold;
-}
-.email{
-width: 25rem;
-height: 3rem;
-background: #FFFFFF;
-box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
-border-radius: 0.625rem;
-text-align: center;
-border: 0px;
-}
-.Subscribe {
-display: inline-block;
-background: #8F0A42;
-border-radius: 0.9rem;
-font-size: 1.3rem;
-text-align: center;
-color: #FFFFFF;
-width: 9rem;
-height: 3rem;
-transition: 0.3s;
-}
-.Subscribe:hover {
-background-color: #FFFFFF;
-color: #8F0A42;
-transition: 0.3s;
-}
-/**About The App**/
-.about-wrapper{
-padding-top: 5rem;
-padding-left: 1rem;
-padding-bottom: 5rem;
-}
-.feature-box h3{
-margin-top: 2rem;
-font-weight: bold;
-font-size: 2rem;
-}
-.feature-box p{
-color: #7B7B7B;
-font-weight: bold;
-font-size: 1.15rem;
-}
-.feature-image{
-width: 75%;
-padding: 40px;
-}
-/**Delivery**/
-.deliver{
-height: 100%;
-background: #F1F1F1;
-}
-.ml9{
-color: #313131;
-font-size: 2.3rem;
-font-weight: bold;
-}
-.ml9 .text-wrapper {
-position: relative;
-display: inline-block;
-overflow: hidden;
-}
-.ml9 .letter {
-transform-origin: 50% 100%;
-display: inline-block;
-line-height: 1em;
-}
-.deliver-text{
-text-align: center;
-font-size: 1.1rem;
-line-height: 1.5rem;
-color: #7B7B7B;
-}
-.logo3{
-width: 10rem;
-height: 3rem;
-margin-left: 5rem;
-}
-.btn{
-border: 0.02rem solid #000000;
-}
-.mock-img{
-margin-left: -1rem;
-margin-top: -1rem;
-}
-/*============================
-RESPONSIVENESS
-============================*/
-@media (max-width: 1024px) {
-.hero-content h1{
-font-size: 2rem;
-}
-div.card {
-margin-left: 0;
-}
-.card-title {
-font-size: 14px;
-}
-.card-text {
-font-size: 12px;
-}
-.email{
-width: 19rem;
-height: 3rem;
-}
-.Subscribe-container h4{
-font-weight: bold;
-margin: 2rem;
-font-size: 1.65rem;
-}
-.works-text{
-margin: 0.5rem 1rem;
-font-size: 1.4rem;
-font-weight: lighter;
-}
-.ml9{
-font-size: 1.5rem;
-font-weight: bold;
-}
-.feature-box p{
-font-weight: lighter;
-}
-}
-@media (max-width: 768px) {
-.hero-content h1{
-font-size: 2rem;
-}
-div.card {
-width: 100%;
-margin-left: 0;
-margin-bottom: 0;  
-}
-.email{
-width: 19rem;
-height: 3rem;
-}
-.Subscribe-container h4{
-font-weight: bold;
-margin: 2rem;
-font-size: 1.65rem;
-}
-.works-text{
-margin: 0.5rem 1rem;
-font-size: 1.4rem;
-font-weight: lighter;
-}
-.ml9{
-font-size: 1.5rem;
-font-weight: bold;
-}
-.feature-box p{
-font-weight: lighter;
-}
-}
-@media (min-width: 320px) and (max-width: 480px) {
-.hero-content h1{
-font-size: 2rem;
-}
-div.card {
-margin-left: 0;
-margin-bottom: 1em;
-}
-.card-title {
-font-size: 16px;
-}
-.card-text {
-font-size: 16px;
-}
-.email{
-width: 19rem;
-height: 3rem;
-}
-.Subscribe-container h4{
-font-weight: bold;
-margin: 2rem;
-font-size: 1.65rem;
-}
-.works-text{
-margin: 0.5rem 1rem;
-font-size: 1.4rem;
-font-weight: lighter;
-}
-.ml9{
-font-size: 1.5rem;
-font-weight: bold;
-}
-.feature-box p{
-font-weight: lighter;
-}
-}
+    margin: 0;
+    background-color:#E5E5E5;
+    padding: 0;
+    font-family: 'Lora', serif;
+    color: #313131;
+    overflow-x: hidden;
+    }
+    /**Hero-Image**/
+    .hero-container {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-top: 5rem;
+    }
+    .hero-content h1{
+    font-size: 2rem;
+    }
+    .hero-content{
+    margin-left: 2rem;
+    }
+    .hero-content h2{
+    font-weight: bold;
+    }
+    .hero-content h2 span{
+    font-weight: normal;
+    font-size: 0.8rem;
+    }
+    #clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-left: 1rem;
+    }
+    #clockdiv > h2{
+    font-weight: bold;
+    }
+    #clockdiv > div{
+    padding: 0.1rem;
+    border-radius: 0.2rem;
+    background: #8F0A42;
+    display: inline-block;
+    }
+    #clockdiv div > span{
+    padding: 0.17rem;
+    border-radius: 0.2rem;
+    background: #A10043;
+    display: inline-block;
+    }
+    .smalltext{
+    padding-top: 0.2rem;
+    font-size: 1rem;
+    }
+    /**Application Screen**/
+    .app-text{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 4rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #313131;
+    }
+    .uk-slideshow 
+    [class*=uk-position-bottom] {
+    position: relative!important;
+    }
+    /**Work**/
+    .works{
+    text-align: center;
+    color: #8F0A42;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 4rem;
+    }
+    .works-text{
+    text-align: center;
+    margin: 0.5rem 1rem;
+    color: #7B7B7B;
+    font-weight: bold;
+    font-size: 1.1rem;
+    }
+    .cards{
+    padding-top: 2rem;
+    }
+    .card{
+    width: 100%;
+    background: #FFFFFF;
+    padding: 1rem;
+    border-radius: 0rem 3.1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    }
+    .card-img-top{
+    text-align: center;
+    width: 4rem;
+    height: 3rem;
+    }
+    .card-title{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #313131;
+    }
+    .card-text{
+    line-height: 1.6rem;
+    color: #7B7B7B;
+    font-weight: bold;
+    }
+    /**Stay In Touch**/
+    .Subscribe-container{
+    text-align: center;
+    margin-top: 80px;
+    }
+    .Subscribe-container h4{
+    font-weight: bold;
+    font-size: 2.3rem;
+    }
+    .Subscribe-container p{
+    color: #7B7B7B;
+    font-weight: bold;
+    }
+    .email{
+    width: 25rem;
+    height: 3rem;
+    background: #FFFFFF;
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 0.625rem;
+    text-align: center;
+    border: 0px;
+    }
+    .Subscribe {
+    display: inline-block;
+    background: #8F0A42;
+    border-radius: 0.9rem;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #FFFFFF;
+    width: 9rem;
+    height: 3rem;
+    transition: 0.3s;
+    }
+    .Subscribe:hover {
+    background-color: #FFFFFF;
+    color: #8F0A42;
+    transition: 0.3s;
+    }
+    /**About The App**/
+    .about-wrapper{
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-bottom: 5rem;
+    }
+    .feature-box h3{
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+    }
+    .feature-box p{
+    color: #7B7B7B;
+    font-weight: bold;
+    font-size: 1.15rem;
+    }
+    .feature-image{
+    width: 75%;
+    padding: 40px;
+    }
+    /**Delivery**/
+    .deliver{
+    height: 100%;
+    background: #F1F1F1;
+    }
+    .ml9{
+    color: #313131;
+    font-size: 2.3rem;
+    font-weight: bold;
+    }
+    .ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    }
+    .ml9 .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+    }
+    .deliver-text{
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: #7B7B7B;
+    }
+    .logo3{
+    width: 10rem;
+    height: 3rem;
+    margin-left: 5rem;
+    }
+    .btn{
+    border: 0.02rem solid #000000;
+    }
+    .mock-img{
+    margin-left: -1rem;
+    margin-top: -1rem;
+    }
+    /*============================
+    RESPONSIVENESS
+    ============================*/
+    @media (max-width: 1024px) {
+    .hero-content h1{
+    font-size: 2rem;
+    }
+    div.card {
+    margin-left: 0;
+    }
+    .card-title {
+    font-size: 14px;
+    }
+    .card-text {
+    font-size: 12px;
+    }
+    .email{
+    width: 19rem;
+    height: 3rem;
+    }
+    .Subscribe-container h4{
+    font-weight: bold;
+    margin: 2rem;
+    font-size: 1.65rem;
+    }
+    .works-text{
+    margin: 0.5rem 1rem;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    }
+    .ml9{
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+    .feature-box p{
+    font-weight: lighter;
+    }
+    }
+    @media (max-width: 768px) {
+    .hero-content h1{
+    font-size: 2rem;
+    }
+    div.card {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;  
+    }
+    .email{
+    width: 19rem;
+    height: 3rem;
+    }
+    .Subscribe-container h4{
+    font-weight: bold;
+    margin: 2rem;
+    font-size: 1.65rem;
+    }
+    .works-text{
+    margin: 0.5rem 1rem;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    }
+    .ml9{
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+    .feature-box p{
+    font-weight: lighter;
+    }
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+    .hero-content h1{
+    font-size: 2rem;
+    }
+    div.card {
+    margin-left: 0;
+    margin-bottom: 1em;
+    }
+    .card-title {
+    font-size: 16px;
+    }
+    .card-text {
+    font-size: 16px;
+    }
+    .email{
+    width: 19rem;
+    height: 3rem;
+    }
+    .Subscribe-container h4{
+    font-weight: bold;
+    margin: 2rem;
+    font-size: 1.65rem;
+    }
+    .works-text{
+    margin: 0.5rem 1rem;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    }
+    .ml9{
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+    .feature-box p{
+    font-weight: lighter;
+    }
+    }
+    
