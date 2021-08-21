@@ -304,6 +304,9 @@ body,html {
     margin: 2rem;
     font-size: 1.65rem;
     }
+    .Subscribe-container p{
+    margin: 2rem;
+    }
     .works-text{
     margin: 0.5rem 1rem;
     font-size: 1.4rem;
@@ -316,5 +319,7 @@ body,html {
     .feature-box p{
     font-weight: lighter;
     }
+    .ml9 .letter {
+    font-size: 2rem;
     }
-    
+    }
